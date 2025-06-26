@@ -33,7 +33,7 @@ public class Esercizio1 {
             // Classificazione del voto
             if (voto >= 24) {
                 System.out.println("Buono o Ottimo");
-            } else if (voto >= 18) {
+            } else if (voto >= 18 && voto <= 23) {
                 System.out.println("Sufficiente");
             } else {
                 System.out.println("Insufficiente");
