@@ -181,17 +181,17 @@ public class ProgettoBiblioteca {
                 case "1":
                     // Aggiungo un libro
                     System.out.print("Titolo: ");
-                    String title = scanner.nextLine().trim();
+                    String title = scanner.nextLine();
                     while (title.isEmpty()) {
                         System.out.print("Titolo non valido. Riprova: ");
-                        title = scanner.nextLine().trim();
+                        title = scanner.nextLine();
                     }
 
                     System.out.print("Autore: ");
                     String author = scanner.nextLine().trim();
                     while (author.isEmpty()) {
                         System.out.print("Autore non valido. Riprova: ");
-                        author = scanner.nextLine().trim();
+                        author = scanner.nextLine();
                     }
 
                     System.out.print("Disponibile? (true/false): ");
@@ -200,7 +200,7 @@ public class ProgettoBiblioteca {
                         scanner.next();
                     }
                     boolean isAvailable = scanner.nextBoolean();
-                    scanner.nextLine(); // consuma il newline
+                    
 
                     library.addBook(new Book(title, author, isAvailable));
                     break;
