@@ -197,7 +197,6 @@ public class ProgettoBiblioteca {
                     System.out.print("Disponibile? (true/false): ");
                     while (!scanner.hasNextBoolean()) {
                         System.out.print("Inserisci 'true' o 'false': ");
-                        scanner.next();
                     }
                     boolean isAvailable = scanner.nextBoolean();
                     
@@ -213,10 +212,10 @@ public class ProgettoBiblioteca {
                 case "3":
                     // Prendi in prestito un libro
                     System.out.print("Titolo da prendere in prestito: ");
-                    String toBorrow = scanner.nextLine().trim();
+                    String toBorrow = scanner.nextLine();
                     while (toBorrow.isEmpty()) {
                         System.out.print("Titolo non valido. Riprova: ");
-                        toBorrow = scanner.nextLine().trim();
+                        toBorrow = scanner.nextLine();
                     }
                     library.borrowBook(toBorrow);
                     break;
@@ -224,7 +223,7 @@ public class ProgettoBiblioteca {
                 case "4":
                     // Restituzione
                     System.out.print("Titolo da restituire: ");
-                    String toReturn = scanner.nextLine().trim();
+                    String toReturn = scanner.nextLine();
                     while (toReturn.isEmpty()) {
                         System.out.print("Titolo non valido. Riprova: ");
                         toReturn = scanner.nextLine();
