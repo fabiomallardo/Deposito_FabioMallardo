@@ -16,7 +16,7 @@ class Dog extends Animal {
 
 public class ProvaAstrazione {
     public static void main(String[] args) {
-        // Animal myAnimal = new Animal(); // Non si può istanziare una classe astratta
+    
         Animal myPig = new Pig();
         Animal myDog = new Dog();
         myPig.animalSound();
