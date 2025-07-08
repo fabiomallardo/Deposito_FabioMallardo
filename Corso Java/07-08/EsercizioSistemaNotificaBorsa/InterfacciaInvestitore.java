@@ -2,7 +2,7 @@ package EsercizioSistemaNotificaBorsa;
 
 import java.util.*;
 
-// Definizione interfaccia Display
+// Definizione interfaccia Investitore
 interface Investitore {
 
     // Metodo astratto che notifica
