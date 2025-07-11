@@ -1,33 +1,46 @@
-# Deposito_FabioMallardo
-### Cartella Prima Settimana
-Include esercizi introduttivi e i concetti fondamentali della programmazione in Java. Vengono affrontati:
+📁 Deposito_FabioMallardo
+Benvenuto nel mio deposito personale di apprendimento Java! Questo repository raccoglie il materiale studiato e sviluppato durante un percorso intensivo di tre settimane, con focus crescente sulla programmazione in Java: dalla sintassi base fino ai Design Pattern più comuni. Ogni cartella rappresenta una fase evolutiva delle competenze acquisite.
 
-Sintassi di base,
-Tipi di dati,
-Strutture di controllo,
-Funzioni e metodi,
-Prime nozioni di Programmazione Orientata agli Oggetti (OOP)
+📦 Cartella Prima Settimana – Fondamenti di Java
+Questa sezione introduce i concetti basilari della programmazione in Java, ideali per chi è alle prime armi o vuole rafforzare le proprie fondamenta. Include:
 
-### Cartella Seconda Settimana
-Approfondimento completo della Programmazione Orientata agli Oggetti:
+✅ Sintassi di base del linguaggio
 
-Classi e oggetti,
-Ereditarietà,
-Incapsulamento,
-Polimorfismo,
-Classi astratte e interfacce
+✅ Tipi di dati primitivi e reference
 
-### Cartella Terza Settimana
-Introduzione e applicazione dei principali Design Pattern:
+✅ Strutture di controllo (if, switch, loop)
 
-Singleton,
-Observer,
-Decorator,
-Strategy,
-Factory Method,
-Facade,
-Ogni pattern è spiegato, implementato in Java e accompagnato da esempi pratici.
+✅ Funzioni e metodi
 
-### Cartelle Test Settimanali
-Contengono le prove pratiche svolte al termine della seconda e della terza settimana, pensate per verificare la comprensione e l’applicazione dei concetti studiati.
+✅ Primi concetti di Programmazione Orientata agli Oggetti (OOP)
 
+🧱 Cartella Seconda Settimana – OOP Avanzata
+Un’immersione completa nella Programmazione Orientata agli Oggetti, con esempi pratici e implementazioni chiare. I temi trattati includono:
+
+🔹 Classi e oggetti
+
+🔹 Ereditarietà
+
+🔹 Incapsulamento
+
+🔹 Polimorfismo
+
+🔹 Classi astratte e interfacce
+
+🎯 Cartella Terza Settimana – Design Pattern
+Introduzione e applicazione dei principali Design Pattern, fondamentali per progettare software manutenibile, scalabile e riutilizzabile. Ogni pattern è spiegato, implementato in Java e accompagnato da un esempio pratico:
+
+🧩 Singleton
+
+👁️ Observer
+
+🧵 Decorator
+
+🎛️ Strategy
+
+🏭 Factory Method
+
+🏰 Facade
+
+🧪 Cartelle Test Settimanali – Verifica delle Competenze
+Queste cartelle contengono prove pratiche realizzate al termine della seconda e terza settimana. Ogni test è pensato per consolidare quanto appreso, simulando problemi reali da risolvere con un approccio orientato agli oggetti e ai pattern.
