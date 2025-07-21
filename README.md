@@ -44,6 +44,38 @@ Ogni pattern è spiegato, implementato in Java e accompagnato da un esempio prat
 
 ---
 
+## 📦 QUARTA SETTIMANA – SQL & JDBC
+
+Introduzione nel mondo dei database relazionali e nella connessione da Java tramite JDBC. Include:
+
+- ✅ **Fondamenti di Database Relazionali**  
+  - Modello relazionale: tabelle, righe, colonne  
+  - Chiavi primarie e straniere  
+  - Normalizzazione (1NF, 2NF, 3NF)
+
+- ✅ **Linguaggio SQL**  
+  - **DDL** (Data Definition Language): `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`  
+  - **DML** (Data Manipulation Language): `SELECT` (filtri, join, alias, aggregazioni), `INSERT`, `UPDATE`, `DELETE`  
+  - **DCL** (Data Control Language): `GRANT`, `REVOKE`  
+  - Query avanzate: sottoselezioni, funzioni di finestra, viste
+
+- ✅ **Setup dell’Ambiente**  
+  - Installazione di un RDBMS (MySQL)  
+  - Creazione di uno schema di esempio  
+  - Importazione di dati di test
+
+- ✅ **Introduzione a JDBC**  
+  - Driver JDBC e classpath  
+  - `DriverManager` vs. `DataSource`  
+  - Le interfacce principali: `Connection`, `Statement` / `PreparedStatement`, `ResultSet`
+
+- ✅ **CRUD con JDBC**  
+  - Apertura e chiusura della connessione  
+  - Esecuzione di query statiche e parametrizzate  
+  - Mappatura di un `ResultSet` su oggetti Java  
+  - Gestione di `SQLException` e rollback
+
+
 ## 🧪 TEST SETTIMANALI – Verifica delle Competenze
 
 Queste cartelle contengono **prove pratiche** realizzate al termine della seconda e terza settimana.  
